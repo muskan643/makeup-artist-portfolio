@@ -1,1 +1,0 @@
-# makeup-artist-portfolio
