@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blush&Blend - Professional Makeup Artist Services for Brides, Parties, and Photoshoots">
+    <link rel="stylesheet" href="styles.css">
+    <title>Makeup-artist-landing-page</title>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <!--Navbar-->
+        <div class="navbar">
+            <div class="logo">
+                <h2>Blush&Blend</h2>
+            </div>
+            <div class="nav-elements" id="nav-elements">
+                <h2></h2>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="menu" id="menu">
+                ☰
+            </div>
+        </div>
+    </header>
+
+    <!--main-->
+    <main>
+        <div class="hero">
+            <h1>Glowing faces, unforgettable moments</h1>
+            <h3>Because every face deserves to glow</h3>
+            <h3>Bringing your dream look to life</h3>
+            <button>Book an appointment</button>
+        </div>
+
+        <!--about section-->
+        <div class="about" id="about">
+            <div class="about-img">
+                <img src="static/images/Make-up_artist.webp" loading="lazy" alt="makeup artist image">
+            </div>
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>Hi, I’m Riya — a certified makeup artist with a deep love for beauty, confidence, and creativity.
+                    For the past 3+ years, I’ve had the privilege of working with amazing women — from glowing brides to
+                    stylish influencers
+
+                    What started as a small passion with a makeup brush turned into a full-time profession driven by
+                    love for flawless skin, dreamy blends, and timeless looks.
+                    I craft every look to match your features, style, and vibe.
+
+                    I believe makeup is not about hiding, it’s about highlighting your natural beauty, owning your
+                    confidence, and shining in your own skin. ✨
+
+                    From HD foundations to waterproof bridal glam, I use only professional, skin-friendly products and
+                    ensure every look is photography-ready and long-lasting.
+
+                    When you sit in my chair, it’s not just makeup — it’s a moment to feel heard, celebrated, and seen
+                    💖
+
+                    Let’s make your special day even more unforgettable — one brushstroke at a time.</p>
+                <div class="socials">
+                    <a href="#"><button id="insta">IG</button></a>
+                    <a href="#"><button id="facebook">FB</button></a>
+                    <a href="#"><button id="whatsapp">WA</button></a>
+                </div>
+            </div>
+        </div>
+        <!--Gallery section-->
+
+        <div class="gallery" id="gallery">
+            <h2>Makeup Gallery</h2>
+            <div class="gallery-container">
+                <div class="container-box">
+                    <img id="box1" src="static/images/gallery1.webp" loading="lazy" alt="makeup gallery image 1">
+                </div>
+                <div class="container-box">
+                    <img id="box2" src="static/images/gallery2.webp" loading="lazy" alt="makeup gallery image 2">
+                </div>
+                <div class="container-box" >
+                    <img id="box3" src="static/images/gallery3.webp" loading="lazy" alt="makeup gallery image 3">
+                </div>
+                <div class="container-box">
+                    <img  id="box4" src="static/images/gallery4.webp" loading="lazy" alt="makeup gallery image 4">
+                </div>
+                <div class="container-box">
+                    <img id="box5" src="static/images/gallery5.webp" loading="lazy" alt="makeup gallery image 5">
+                </div>
+                <div class="container-box">
+                    <img id="box6" src="static/images/gallery6.webp" loading="lazy" alt="makeup gallery image 6">
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--services section-->
+        <div class="services" id="services">
+            <h2>My Services</h2>
+
+            <div class="services-container">
+
+                <div class="service-box">
+                    <img id="img1" src="static/images/bridal.webp" loading="lazy" alt="bridal makeup image">
+                    <h3>💍 Bridal Makeup</h3>
+                    <p class="price">₹7999</p>
+                    <p>Full bridal glam with HD finish, lashes, waterproof base & setting spray.</p>
+                    <button>Book Now</button>
+                </div>
+
+                <div class="service-box">
+                    <img id="img2" src="static/images/party.webp" loading="lazy" alt="party makeup image">
+                    <h3>🎉 Party Makeup</h3>
+                    <p class="price">₹2999</p>
+                    <p>Perfect for birthdays, events, or festivals. Subtle shimmer or bold glam — your choice!</p>
+                    <button>Book Now</button>
+                </div>
+
+                <div class="service-box">
+                    <img id="img3" src="static/images/photoshoot.webp" loading="lazy" alt="photoshooot makeup image">
+                    <h3>📸 Photoshoot Look</h3>
+                    <p class="price">₹3999</p>
+                    <p>Camera-ready glam for content creation, pre-wedding shoots & reels.</p>
+                    <button>Book Now</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Contact section-->
+
+        <div class="contact" id="contact">
+            <h2>Book your Appointment</h2>
+
+            <form action="/submit" method="POST">
+              <label for="text">Name</label>
+                <input type="text" placeholder="Enter your name">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your mail">
+                <label for="number">Phone number</label>
+                <input type="number" placeholder="Enter your mobile number">
+               <label for="text">Service</label>
+                <input type="text" placeholder="What service are you interested in?">
+               <label for="textarea">Message</label>
+                <textarea name="message" rows="5" cols="30" placeholder="Any message requests or details.."></textarea>
+                <button id="contact-btn">Send Booking Request</button>
+            </form>
+        </div>
+
+
+    </main>
+
+    <!--footer-->
+    <footer>
+        <h2 style="color: #a93670;">Blush&Blend</h2>
+        <h3>Professional Makeup Artist</h3>
+        <div class="socials">
+            <a href="#"><button id="insta">IG</button></a>
+            <a href="#"><button id="facebook">FB</button></a>
+            <a href="#"><button id="whatsapp">WA</button></a>
+        </div>
+        <h3>@Blush&Blend 2025| All Rights Reserved </h3>
+    </footer>
+
+    <script src="static/javascript/script.js" defer></script>
+</body>
+
+</html>
